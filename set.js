@@ -11,7 +11,7 @@ module.exports = { session: process.env.SESSION_ID || 'eyJub2lzZUtleSI6eyJwcml2Y
     PREFIXE: process.env.PREFIX || ".",
     OWNER_NAME: process.env.OWNER_NAME || "𝐷𝐸ℕ𝐵𝙊𝑌",
     NUMERO_OWNER : process.env.NUMERO_OWNER || "𝐷𝐸ℕ𝐵𝙊𝑌",              
-    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
+    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "no",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
     BOT : process.env.BOT_NAME || 'CHARLESKE-VMD',
     URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/17c83719a1b40e02971e4.jpg',
